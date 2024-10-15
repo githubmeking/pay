@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 # Telegram API bilgileri
 API_ID = '21507798'
 API_HASH = 'c8bd80ec22e3d92c0ee4561cbf7d6611'
-BOT_TOKEN = '7915800450:AAHVFfuHC6jjWzh4YUCG6EXv3pR-eytFWUA'
+BOT_TOKEN = '8157852847:AAH6X4hutw5nPMQdWbyJ4PkCgh-h0eFIKTk'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Hoş Geldin! /pay ile ödeme seçeneklerini görebilirsiniz.")
